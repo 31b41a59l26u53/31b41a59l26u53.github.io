@@ -1,0 +1,40 @@
+Privacy Policy for Tükörfúrógép
+
+Last updated: 2026-05-22
+
+Tükörfúrógép is a Hungarian word game and writing tool.
+
+Local app data
+
+The app lets users write and save short text items and optionally attach images to saved items. These saved texts and images are stored locally on the user’s device. They are not uploaded to a server by the app.
+
+Clipboard and image handling
+
+The app can read an image from the clipboard only when the user chooses the paste image function. The app can also copy an attached image to the clipboard when the user chooses the copy image function.
+
+Downloads
+
+The app contains an optional easter-egg download feature that downloads image files from:
+https://ai.elte.hu/csbalint/arvizturo/Own/
+https://ai.elte.hu/csbalint/arvizturo/Wikipedia/
+
+These downloaded images are saved locally in the app.
+
+Advertising
+
+The app uses Google AdMob to show banner advertisements. Google AdMob may collect and process data such as device identifiers, advertising identifiers, approximate location, app interactions, diagnostics, and other ad-related data according to Google’s policies.
+
+Google’s privacy policy is available at:
+https://policies.google.com/privacy
+
+Data sharing
+
+The developer does not sell user data. The developer does not operate an account system and does not intentionally collect user-written text or user-attached images. Data may be processed by Google/AdMob for advertising, fraud prevention, analytics, diagnostics, and related services.
+
+Data retention and deletion
+
+Saved texts and images remain on the user’s device until the user deletes them in the app or uninstalls the app. The developer does not have access to delete local data remotely.
+
+Security
+
+The app stores user-created content locally on the device. Network downloads use HTTPS.
