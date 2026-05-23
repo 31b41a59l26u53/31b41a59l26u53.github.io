@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tükörfúrógép</title>
+  <meta name="description" content="Tükörfúrógép – magyar ékezetes magánhangzós szó- és versjáték.">
+  <style>
+    :root {
+      --petrol: #006D77;
+      --petrol-dark: #003E46;
+      --petrol-light: #83CDD4;
+      --bg: #f7fbfc;
+      --text: #172326;
+      --muted: #5d6b70;
+      --card: #ffffff;
+      --border: #d6e4e7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg), #ffffff);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--petrol-dark);
+      color: white;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      letter-spacing: 0.02em;
+    }
+
+    header p {
+      margin: 0;
+      color: #d7f4f7;
+      font-size: 1.15rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      margin: 20px 0;
+      box-shadow: 0 8px 28px rgba(0, 61, 70, 0.08);
+    }
+
+    h2 {
+      color: var(--petrol-dark);
+      margin-top: 0;
+    }
+
+    .example {
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--petrol);
+      text-align: center;
+      padding: 18px;
+      border-radius: 14px;
+      background: #e8f7f8;
+      margin: 20px 0 0;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    a {
+      color: var(--petrol);
+      font-weight: 600;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 0.95rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--petrol);
+      color: white;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--petrol);
+      border: 1px solid var(--petrol);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tükörfúrógép</h1>
+    <p>Magyar ékezetes magánhangzós szó- és versjáték</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Mi ez?</h2>
+      <p>
+        A <strong>Tükörfúrógép</strong> egy magyar nyelvi játék és íróeszköz rövid
+        mondatokhoz, az úgynevezett <strong>árvíztűrő-haikukhoz</strong>.
+      </p>
+      <p>
+        A cél: mind a kilenc ékezetes magyar magánhangzó
+        (<strong>á, é, í, ó, ö, ő, ú, ü, ű</strong>) pontosan egyszer szerepeljen
+        a szövegben, miközben más magánhangzó nem használható.
+      </p>
+      <div class="example">
+        Árvíztűrő tükörfúrógép
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Funkciók</h2>
+      <ul>
+        <li>saját magyar ékezetes billentyűzet,</li>
+        <li>hiányzó, helyes és ismételt magánhangzók jelzése,</li>
+        <li>hibás karakterek kiemelése,</li>
+        <li>kész szövegek mentése és rendezése,</li>
+        <li>képek csatolása a mentett szövegekhez,</li>
+        <li>több írásmód: árvíztűrő, fürge rőt róka és tetszőleges jegyzetek.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Letöltés</h2>
+      <p>
+        Az alkalmazás Androidra készül, és Google Playen keresztül lesz elérhető.
+      </p>
+      <div class="links">
+        <a class="button secondary" href="privacy.html">Adatvédelmi irányelvek</a>
+        <a class="button secondary" href="app-ads.txt">app-ads.txt</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Kapcsolat</h2>
+      <p>
+        Kérdés vagy hibajelentés esetén írj erre a címre:
+        <a href="mailto:3.1b41a59l26u53@gmail.com">3.1b41a59l26u53@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Tükörfúrógép
+  </footer>
+</body>
+</html>
